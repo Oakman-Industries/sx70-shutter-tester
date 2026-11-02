@@ -1,0 +1,51 @@
+# Oakman Industries default .gitignore — extend per project.
+
+# --- Private per-device / user data (NEVER commit) ---
+*.RAW
+*.raw
+*.BIN
+*.bin
+*.iso
+*_dump/
+dumps/
+captures/
+donor/
+*_disc/
+
+# --- Project config that may hold per-user values ---
+model_profile.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# --- Build / OS / editor ---
+build/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- KiCad (CAD source is intentionally NOT published; production files only) ---
+*.kicad_pcb
+*.kicad_sch
+*.kicad_pro
+*.kicad_prl
+*.kicad_dru
+*.kicad_sym
+*.kicad_mod
+*.pretty/
+*-backups/
+fp-info-cache
+fp-lib-table
+sym-lib-table
+_autosave-*
+*.lck

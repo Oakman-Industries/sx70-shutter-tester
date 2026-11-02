@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 450" role="img" aria-labelledby="title desc">
+<title id="title">Nine points at the film plane</title><desc id="desc">S7, S8, S9 in the rear row; S4, S5, S6 in the middle; S1, S2, S3 toward film exit. S5 is below the inspection LED. All nine have parallel timing outputs; S5 has direct intensity readout and eight other channels share a mux. Diagram only, not to scale.</desc>
+<rect width="1400" height="450" rx="18" fill="#15191d"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="55" y="53" fill="#f2ad4a" font-size="19" letter-spacing="3">NINE POINTS AT THE FILM PLANE</text>
+<rect x="65" y="88" width="440" height="304" rx="10" fill="#1e2429" stroke="#47515a"/>
+<g fill="#eeb057" stroke="#eeb057" stroke-width="2">
+<circle cx="120" cy="128" r="12"/><circle cx="285" cy="128" r="12"/><circle cx="450" cy="128" r="12"/>
+<circle cx="120" cy="229" r="12"/><circle cx="285" cy="260" r="12"/><circle cx="450" cy="229" r="12"/>
+<circle cx="120" cy="349" r="12"/><circle cx="285" cy="349" r="12"/><circle cx="450" cy="349" r="12"/>
+</g>
+<g fill="#f0f2f4" font-size="20" text-anchor="middle">
+<text x="120" y="165">S7</text><text x="285" y="165">S8</text><text x="450" y="165">S9</text>
+<text x="120" y="266">S4</text><text x="285" y="298">S5</text><text x="450" y="266">S6</text>
+<text x="120" y="382">S1</text><text x="285" y="382">S2</text><text x="450" y="382">S3</text>
+</g>
+<circle cx="285" cy="213" r="8" fill="#fff"/><text x="305" y="218" font-size="15" fill="#b9c2ca">LED</text>
+<text x="65" y="425" font-size="16" fill="#9da7b0">Film-exit end ↓  ·  diagram only, not to scale</text>
+<text x="580" y="126" fill="#f0f2f4" font-size="27" font-weight="bold">Parallel shutter timing</text>
+<text x="580" y="164" fill="#b9c2ca" font-size="22">Nine independent light-threshold outputs.</text>
+<text x="580" y="236" fill="#f0f2f4" font-size="27" font-weight="bold">Relative brightness at every point</text>
+<text x="580" y="274" fill="#b9c2ca" font-size="22">S5 direct to ADC; eight channels through a mux.</text>
+<text x="580" y="310" fill="#b9c2ca" font-size="22">A coarse map, with sequential analog readings.</text>
+<path d="M580 346H1330" stroke="#47515a"/>
+<text x="580" y="385" fill="#f2ad4a" font-size="20">HARDWARE PROVISIONS · FIRMWARE / CALIBRATION PENDING</text>
+</g></svg>
